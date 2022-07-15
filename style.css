@@ -1,0 +1,247 @@
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+der {
+    display: block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rid="comment"em;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 480px){  
+form {
+    padding: 2.5rem;
+}
+  }
+
+  form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group {
+     margin: 0 auto 1.25rem auto;
+    padding: 0.25rem; 
+}
+
+form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+ }
+
+
+ h1 {
+    font-weight: 400;
+     line-height: 1.2; 
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+label {
+    display: flex;
+    align-items: center; 
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    cursor: default;
+}
+
+div {
+    display: block;
+}
+
+input, button, select, textarea {
+    margin: 0; 
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit; 
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+}
+
+
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: normal;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+
+user agent stylesheet
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+
+@media (min-width: 768px){  
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px)   {  
+.container {
+    max-width: 540px;
+}
+}
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+div {
+    display: block;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+       }
+
+.submit-button {
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 21.5em;
+    height: 2em;
+    font-size: 25px;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem; 
+}
+#button{
+    text-align: center;
+    border: none;
+}
+#comment{
+    height: 8em;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem; 
+    width: 32.5em;
+}
